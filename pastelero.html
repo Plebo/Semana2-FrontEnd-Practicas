@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Metheor cakes</title>
+  </head>
+
+  <header>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="./pasteleria.html">
+        <img src="./assets/img/logo.png" alt="logo" class="logo" />Meteor cakes
+      </a>
+      <div class="three center">
+        <a href="./pasteleria.html">
+          <button class="btn btn-link">Salir</button></a
+        >
+      </div>
+    </nav>
+  </header>
+
+  <body class="background">
+    <div class="container">
+      <section class="center">
+        <h2 class="marginTop">Listado de pedidos</h2>
+      </section>
+      <section>
+        <table class="table topMargin">
+          <thead class="thead-dark">
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Teléfono</th>
+              <th>Correo</th>
+              <th>Descripción</th>
+              <th>Sabores</th>
+              <th>Decoraciones</th>
+              <th>Hora de pedido</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="tableColor">
+            <tr>
+              <td>1</td>
+              <td>Pablo</td>
+              <td>1234567890</td>
+              <td>correo@gmail.com</td>
+              <td>Pastel con adornos arriba</td>
+              <td>Chocolate, Vainilla</td>
+              <td>Fresas, Kiwi</td>
+              <td>17:30</td>
+              <td>
+                <button class="topMargin bottomMargin btn btn-outline-info">
+                  Atender
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Francisco</td>
+              <td>34567890987</td>
+              <td>cakelover@gmail.com</td>
+              <td>Pastel grande de dos pisos</td>
+              <td>Chocolate</td>
+              <td>Fresas, Kiwi, Mango, Gomitas</td>
+              <td>12:30</td>
+              <td>
+                <button class="topMargin bottomMargin btn btn-outline-info">
+                  Atender
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="textCenter">
+        <h2 class="marginTop">Inventario disponible</h2>
+        <h4 class="subtitle">Sabores</h4>
+      </section>
+      <section>
+        <table class="table topMargin">
+          <thead class="thead-dark">
+            <tr>
+              <th>#</th>
+              <th>Sabor</th>
+              <th class="textCenter">Stock (sabor por pastel)</th>
+              <th class="textCenter">Disponible</th>
+            </tr>
+          </thead>
+          <tbody class="tableColor">
+            <tr>
+              <td>1</td>
+              <td>Chocolate</td>
+              <td class="textCenter">4</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Vainilla</td>
+              <td class="textCenter">1</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Coco</td>
+              <td class="textCenter">0</td>
+              <td class="textCenter"><i class="fa fa-times danger" aria-hidden="true"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h4 class="textCenter subtitle">Adornos</h4>
+      </section>
+      <section>
+        <table class="table topMargin">
+          <thead class="thead-dark">
+            <tr>
+              <th>#</th>
+              <th>Sabor</th>
+              <th class="textCenter">Stock (sabor por pastel)</th>
+              <th class="textCenter">Disponible</th>
+            </tr>
+          </thead>
+          <tbody class="tableColor">
+            <tr>
+              <td>1</td>
+              <td>Chispas de chocolate</td>
+              <td class="textCenter">4</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Chocolate líquido</td>
+              <td class="textCenter">3</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Fresas</td>
+              <td class="textCenter">0</td>
+              <td class="textCenter"><i class="fa fa-times danger" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Coco</td>
+              <td class="textCenter">0</td>
+              <td class="textCenter"><i class="fa fa-times danger" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Kiwi</td>
+              <td class="textCenter">10</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Mango</td>
+              <td class="textCenter">5</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Durazno</td>
+              <td class="textCenter">2</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Nuez</td>
+              <td class="textCenter">2</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Gomitas</td>
+              <td class="textCenter">12</td>
+              <td class="textCenter"><i class="fa fa-check success" aria-hidden="true"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+
+  <footer>
+    <div class="row footer topMargin">
+      <div class="col-sm-4 center topMargin">
+        <p>
+          <i class="fa fa-home" aria-hidden="true"></i> Calle prueba # 2g, Las
+          lucas, Guanajuato, Guanajuato
+        </p>
+      </div>
+      <div class="col-sm-4 center topMargin">
+        <p><i class="fa fa-phone" aria-hidden="true"></i> 91238912</p>
+      </div>
+      <div class="col-sm-4 topMargin">
+        <ul>
+          Horarios
+          <li>Lunes a viernes 09:00 - 20:00</li>
+          <li>Sábados 10:00 - 21:00</li>
+          <li>Domingos 10:00 - 14:00</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,57 @@
+.background{
+  background: #f9ebfc;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.containerPadding{
+  padding: 1%;
+}
+
+.adormentsImg{
+  float: left;
+  width:  50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.topMargin{
+  margin-top: 2%;
+}
+
+.bottomMargin{
+  margin-top: 2%;
+}
+
+.footer{
+  background: #fff;
+}
+
+.tableColor{
+  background: #fff;
+}
+
+.success{
+  color: forestgreen;
+}
+
+.danger{
+  color: crimson
+}
+
+.subtitle{
+  color: #17a2b8;
+}
